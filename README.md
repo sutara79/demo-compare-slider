@@ -1,4 +1,4 @@
-# スライドショーのライブラリの比較
+# スライドショーのプラグインの比較
 
 ## Demo
 https://sutara79.github.io/demo-compare-slider/
@@ -14,17 +14,18 @@ https://sutara79.github.io/demo-compare-slider/
 - マウスオーバーで自動再生を一時停止してほしい。
 - ページネーションはスライドの領域内に表示してほしい。
 
+## 試したもの
+### bxSlider 4.2.5
+- GitHub: https://github.com/stevenwanderski/bxslider-4
 
-### bxSlider
-https://github.com/stevenwanderski/bxslider-4
+### FlexSlider 2.6.3
+- GitHub: https://github.com/woocommerce/FlexSlider  
+  (`pauseOnHover`と`slideshowSpeed`のオプションは解説に載っておらず、ソースコードから探し出した)
 
-### FlexSlider
-https://github.com/woocommerce/FlexSlider
-
-### Swiper
+### Swiper 3.3.1
 - GitHub: https://github.com/nolimits4web/swiper/
 - オプションの解説: http://idangero.us/swiper/api/
 
-### Bootstrap Carousel
+### Bootstrap 3.3.7 Carousel
 - GitHub: https://github.com/twbs/bootstrap
 - オプションの解説: http://getbootstrap.com/javascript/#carousel
