@@ -17,9 +17,17 @@
   background-image: none;
 }
 </style>
+<script>
+$(function() {
+  $('.carousel').carousel({
+    interval: 1000, // 自動再生の間隔を1秒に
+    pause: 'hover' // マウスが乗ると一時停止
+  });
+});
+</script>
 </head>
 <body>
-<h1>Swiper</h1>
+<h1>Bootstrap Carousel</h1>
 <div id="test-carousel" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#test-carousel" data-slide-to="0" class="active"></li>

@@ -20,11 +20,19 @@ body {
 <script>
 $(function() {
   var mySwiper = new Swiper ('.swiper-container', {
+    autoplay: 1000, // 自動再生の間隔を1秒に
     loop: true,
     pagination: '.swiper-pagination',
     nextButton: '.swiper-button-next',
     prevButton: '.swiper-button-prev'
   });
+  $('.swiper-slide')
+    .on('mouseover', function () {
+      mySwiper.stopAutoplay();
+    })
+    .on('mouseout', function () {
+      mySwiper.startAutoplay();
+    });
 });
 </script>
 </head>

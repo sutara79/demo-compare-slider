@@ -27,7 +27,11 @@ body {
 </style>
 <script>
 $(function () {
-  $('.bxslider').bxSlider();
+  $('.bxslider').bxSlider({
+    pause: 1000,
+    auto: true,
+    autoHover: true
+  });
 });
 </script>
 </head>
