@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>bxslider</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/jquery.bxslider.min.css">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/jquery.bxslider.min.js"></script>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+}
+.bx-wrapper {
+  border: none;
+  box-shadow: none;
+}
+.bxslider img {
+  width: 100%;
+  height: auto;
+}
+.bx-wrapper .bx-controls-auto,
+.bx-wrapper .bx-pager {
+  bottom: 16px;
+}
+</style>
+<script>
+$(function () {
+  $('.bxslider').bxSlider();
+});
+</script>
+</head>
+<body>
+<h1>bxslider</h1>
+<ul class="bxslider">
+  <li><a href="javascript:alert('クリックされました');"><img src="../img/img1.png"></a></li>
+  <li><img src="../img/img2.png"></li>
+  <li><img src="../img/img3.png"></li>
+</ul>
+</body>
+</html>
